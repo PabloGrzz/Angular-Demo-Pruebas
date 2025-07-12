@@ -1,8 +1,5 @@
 import { Injectable } from '@angular/core';
 
-@Injectable({
-  providedIn: 'root'
-})
 
 // Hardcodeo de productos para simular una base de datos
 export interface Product {
@@ -12,6 +9,10 @@ export interface Product {
   precio: number;
   imagen: string;
 }
+
+@Injectable({
+  providedIn: 'root'
+})
 
 export class Products {
 
