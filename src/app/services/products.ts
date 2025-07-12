@@ -39,6 +39,13 @@ export class Products {
       descripcion: 'Una moto naked con un motor potente y un diseño agresivo.',
       precio: 7000,
       imagen: '/img/suzuki-gixxer-sf-720.jpg'
+    },
+    {
+      id: 4,
+      nombre: 'Kawasaki KX250',
+      descripcion: 'Una moto naked con un motor potente y un diseño agresivo.',
+      precio: 8000,
+      imagen: '/img/kawasaky-kx250.jpg'
     }
   ]
 
