@@ -1,59 +1,72 @@
-# Motos
+# 🏍️ Motos Web App – Proyecto base para practicar animaciones en Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.0.
+Este es un proyecto base desarrollado con **Angular**, pensado específicamente como entorno de pruebas para **animaciones, transiciones, efectos visuales y otras funcionalidades de frontend**. No es una aplicación de producción ni incluye backend; todo está simulado para facilitar el desarrollo visual y la experimentación.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🎯 Finalidad del proyecto
+
+Este repositorio está creado como **punto de partida para practicar con Angular** y experimentar con:
+
+- Animaciones de entrada y salida entre componentes.
+- Transiciones suaves y efectos visuales.
+- Estilos dinámicos y personalizados.
+- Pruebas con librerías de animación o CSS avanzado.
+- Estructura modular y reutilización de componentes.
+
+⚠️ **No contiene lógica de negocio real ni conexión con bases de datos**. Los datos están simulados para facilitar el trabajo en la parte visual.
+
+---
+
+## 🚀 Características
+
+- Navegación entre vistas con **Angular Router**.
+- Componentes modulares: Header, Footer, y páginas independientes.
+- Página de productos con un **componente reutilizable** para mostrar motos.
+- **Servicio simulado** con lista de productos hardcodeada (sin backend).
+- Estilos en CSS, sin frameworks externos como Tailwind o Bootstrap.
+- Preparado para que añadas animaciones con Angular, CSS o librerías externas.
+
+---
+
+## 🧱 Estructura del proyecto
+
+- `/src/app/components`  
+  - `Header`, `Footer`
+- `/src/app/pages`  
+  - `Home`, `About`, `Contact`, `Products`
+- `/src/app/services`  
+  - `ProductService` (datos de prueba)
+- `/src/assets/img`  
+  - Imágenes de las motos
+- `ProductsComponent`: muestra productos de forma reutilizable y sencilla.
+
+---
+
+## 📦 Instalación
+
+1. Clona este repositorio:
 
 ```bash
+git clone https://github.com/tu-usuario/tu-repo.git
+cd tu-repo
+Instala las dependencias:
+
+bash
+Copiar
+Editar
+npm install
+Arranca el servidor de desarrollo:
+
+bash
+Copiar
+Editar
 ng serve
-```
+Abre http://localhost:4200 en tu navegador para ver el resultado.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🛠️ Tecnologías utilizadas
+Angular
 
-## Code scaffolding
+TypeScript
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+HTML y CSS
