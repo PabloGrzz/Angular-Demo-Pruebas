@@ -37,9 +37,8 @@ Este repositorio está creado como **punto de partida para practicar con Angular
   - `Home`, `About`, `Contact`, `Products`
 - `/src/app/services`  
   - `ProductService` (datos de prueba)
-- `/src/assets/img`  
+- `/public/img`  
   - Imágenes de las motos
-- `ProductsComponent`: muestra productos de forma reutilizable y sencilla.
 
 ---
 
